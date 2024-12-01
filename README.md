@@ -21,3 +21,11 @@
 2. Для возможности парсинга по телеграм-каналам там же нужно ввести свои api_id и api_hash
 3. Напишите в терминал `python main.py` для начала работы бота
 4. Во время первого запроса к телеграм-каналам, у вас могут попросить пройти авторизацию
+
+## Скриншоты
+
+![Скрин 1](https://github.com/dtmity/NewsParser/raw/main/shots/1.png)
+
+![Скрин 2](https://github.com/dtmity/NewsParser/raw/main/shots/2.png)
+
+![Скрин 3](https://github.com/dtmity/NewsParser/raw/main/shots/3.png)
