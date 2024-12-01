@@ -1,4 +1,4 @@
-token = '6069780214:AAFr790pZxuLM77QNS-bYh0lnPw5LfUx3C4'
+token = <Токен вашего бота>
 
-api_id = '111'
-api_hash = '111'
+api_id = <Ваш апи айди>
+api_hash = <Ваш хэш айди>
