@@ -4,13 +4,12 @@ from telethon.tl.types import PeerChannel
 from datetime import datetime, timedelta, timezone
 import time
 from config import api_id, api_hash
+from sources import channels_name
 
 import asyncio
 
 
 def tg_pars(delta, keywords):
-    channels_name = {'oldlentach', 'rian_ru', 'breakingmash'}
-
     loop = asyncio.new_event_loop()
     asyncio.set_event_loop(loop)
 
