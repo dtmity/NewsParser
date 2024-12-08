@@ -1,6 +1,6 @@
 import feedparser
 from datetime import datetime, timedelta, timezone
-from news_sources import sources
+from sources import sources
 
 
 def news_pars(delta, keywords={'Добро'}):
