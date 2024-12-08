@@ -1,13 +1,10 @@
 import feedparser
 from datetime import datetime, timedelta, timezone
+from news_sources import sources
 
 
 def news_pars(delta, keywords={'Добро'}):
     bd_mess = []
-    sources = {('https://lenta.ru/rss/news', 'lenta'),
-               ('https://russian.rt.com/rss', 'rt'),
-               ('https://www.vedomosti.ru/rss/news.xml', 'ведомости'),
-               ('https://ria.ru/export/rss2/index.xml', 'ria')}
 
     for url, name in sources:
         rss = feedparser.parse(url)
